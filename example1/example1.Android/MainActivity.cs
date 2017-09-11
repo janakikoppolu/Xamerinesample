@@ -24,4 +24,4 @@ namespace example1.Droid
         }
     }
 }
-
+ 
