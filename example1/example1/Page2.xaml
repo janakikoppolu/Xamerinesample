@@ -5,7 +5,9 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to Xamarin Forms!" />
-            <Button Text="go back"
+            <Button Text="Sucess"
+               FontSize="Large"
+                    TextColor="Green"
             Clicked="Button_Clicked"/>
 
 
