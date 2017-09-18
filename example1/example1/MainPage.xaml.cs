@@ -12,6 +12,8 @@ namespace example1
         public MainPage()
         {
             InitializeComponent();
+           
         }
+
     }
 }

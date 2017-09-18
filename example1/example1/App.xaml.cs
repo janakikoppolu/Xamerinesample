@@ -12,8 +12,8 @@ namespace example1
         public App()
         {
             InitializeComponent();
-
-            MainPage = new example1.MainPage();
+            MainPage = new NavigationPage(new Page1());
+           
         }
 
         protected override void OnStart()
