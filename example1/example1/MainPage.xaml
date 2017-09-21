@@ -9,7 +9,7 @@
         HorizontalOptions="FillAndExpand"
         Spacing="5"
         Padding="5">
-        <Label Text="Registration Form2"
+        <Label Text="Registration Form"
                TextColor="Red"
                FontSize="32"
                FontAttributes="Bold"/>
