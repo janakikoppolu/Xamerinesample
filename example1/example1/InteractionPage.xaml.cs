@@ -16,5 +16,12 @@ namespace example1
 		{
 			InitializeComponent ();
 		}
-	}
+
+       
+        private void Interactionbutton_Clicked(object sender, EventArgs e)
+        {
+            decimal result = Convert.ToDecimal(firstnumber.Text) + Convert.ToDecimal(secondnumber.Text);
+            resultLabel.Text = result.ToString();
+        }
+    }
 }

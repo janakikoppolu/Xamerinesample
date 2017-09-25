@@ -4,7 +4,14 @@
              x:Class="example1.InteractionPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin Forms!" />
+            <Label Text="enter your number and click the button"/>
+            <Entry x:Name="firstnumber" Placeholder="enter your first number"/>
+                <Entry x:Name="secondnumber" Placeholder="enter your second number"/>
+               <Button x:Name="Interactionbutton" Text="Add these numbers"
+                    Clicked="Interactionbutton_Clicked"/>
+                <Label x:Name="resultLabel" Text=""/>
+                
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

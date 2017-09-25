@@ -16,7 +16,8 @@
             <Label Text="Welcome to the registration form! Please fill out"
         FontSize="20"/>
 
-
+            <Button Text="todo"
+        Clicked="Button_Clicked"/>
 
             <Label Text="the following information to register for the event"
             FontSize="20"
