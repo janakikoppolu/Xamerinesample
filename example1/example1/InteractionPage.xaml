@@ -1,15 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="example1.Page1">
+             x:Class="example1.InteractionPage">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to Xamarin Forms!" />
-            <Button Text="Submit"
-                Clicked="Button_Clicked"/>
-            <Button Text="Go to back end interaction"
-                    Clicked="Button_Clicked_1"/>
-
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

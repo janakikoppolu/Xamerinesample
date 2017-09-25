@@ -13,10 +13,12 @@
                TextColor="Red"
                FontSize="32"
                FontAttributes="Bold"/>
-        <Label Text="Welcome to the registration form! Please fill out"
+            <Label Text="Welcome to the registration form! Please fill out"
         FontSize="20"/>
 
-        <Label Text="the following information to register for the event"
+
+
+            <Label Text="the following information to register for the event"
             FontSize="20"
         FontAttributes="Bold"/>
         <Label Text="Personal Information:"/>
