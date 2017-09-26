@@ -26,5 +26,13 @@ namespace example1
         {
             Navigation.PushAsync(new InteractionPage());
         }
+
+        private void ListButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new listpage());
+        }
+
+        
+    }
     }
 }

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="example1.listpage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Enter an item to shop list" />
+            <Entry x:Name="Addingnewitem"
+                   <Button x:Name="additembutton" Text="Added Item"
+                           Clicked="additembutton_Clicked"/>
+                <Button x:Name="clrbutton" Text="clear shop List"
+                        Clicked="clrbutton_Clicked"/>
+                
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

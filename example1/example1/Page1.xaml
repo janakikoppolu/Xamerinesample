@@ -9,6 +9,8 @@
                 Clicked="Button_Clicked"/>
             <Button Text="Go to back end interaction"
                     Clicked="Button_Clicked_1"/>
+            <Button X:Name="listButton" Text="Shop list"
+                    Clicked="ListButton_Clicked"/>
 
         </StackLayout>
     </ContentPage.Content>
