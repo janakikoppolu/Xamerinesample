@@ -12,36 +12,38 @@ namespace example1
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class listpage : ContentPage
 	{
-        private List<string> shoplist;
+        public List<string> shoplist=new List<string>();
+
 
         public listpage ()
 		{
-			InitializeComponent ();
+			InitializeComponent();
             shoplist = new List<string>();
 		}
 
-        private void addbutton_Clicked(object sender, EventArgs e)
+     
+
+        private void additembutton_Clicked(object sender, EventArgs e)
         {
-            object newitemEntry = null;
-            if (String.IsNullOrEmpty(Addingnewitem.Text))
+
+            if (String.IsNullOrEmpty(additem.Text))
             {
 
           
             }
             else
             {
-                shoplist.Add()
+                shoplist.Add(additem.Text);
+                shoplistlist.ItemSource = shoplist;
+                additem.Text = "";
+
             }
-        }
-
-        private void additembutton_Clicked(object sender, EventArgs e)
-        {
-
         }
 
         private void clrbutton_Clicked(object sender, EventArgs e)
         {
-
+            shoplist = new List<string>();
+            shoplistlist.ItemSource = shoplist;
         }
     }
 }
