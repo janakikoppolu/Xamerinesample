@@ -29,7 +29,7 @@ namespace example1
 
         private void ListButton_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new listpage());
+            Navigation.PushAsync(new Page3());
         }
 
         
